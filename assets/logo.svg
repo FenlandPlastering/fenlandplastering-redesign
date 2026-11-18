@@ -1,11 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 120" role="img" aria-labelledby="title desc">
-  <title id="title">Fenland Plastering Services architectural mark</title>
-  <desc id="desc">A traditional roofline and doorway motif in deep green.</desc>
-  <g fill="none" stroke="#263b35" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter">
-    <path d="M18 57 90 12l72 45"/>
-    <path d="M35 53v51h110V53"/>
-    <path d="M68 104V67h44v37"/>
-    <path d="M57 47h66"/>
-  </g>
-  <path d="M85 85h10" stroke="#b18a5a" stroke-width="4" stroke-linecap="square"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 150" role="img" aria-labelledby="title desc">
+<title id="title">Fenland Plastering Services</title>
+<desc id="desc">Traditional architectural crest with a classical arch and masonry detailing, alongside the Fenland Plastering Services wordmark.</desc>
+<defs>
+  <linearGradient id="gold" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#c5a675"/><stop offset="1" stop-color="#9b7548"/></linearGradient>
+</defs>
+<g transform="translate(12 8)">
+  <path d="M65 4 122 25v45c0 35-24 55-57 68C32 125 8 105 8 70V25Z" fill="#263b35" stroke="url(#gold)" stroke-width="3"/>
+  <path d="M22 38 65 19l43 19" fill="none" stroke="#e9e3d8" stroke-width="3.5" stroke-linecap="square"/>
+  <path d="M30 44v47h70V44" fill="none" stroke="#e9e3d8" stroke-width="2.5"/>
+  <path d="M43 91V66a22 22 0 0 1 44 0v25" fill="none" stroke="url(#gold)" stroke-width="3.5"/>
+  <path d="M49 91V68a16 16 0 0 1 32 0v23" fill="none" stroke="#e9e3d8" stroke-width="2"/>
+  <path d="M28 52h74M28 59h15m59 0H87M28 98h74" stroke="#c5a675" stroke-width="1.5"/>
+  <path d="M65 105v12m-6-6h12" stroke="#c5a675" stroke-width="2"/>
+</g>
+<g fill="#263b35">
+  <text x="158" y="62" font-family="Georgia,serif" font-size="43" font-weight="bold" letter-spacing="3">FENLAND</text>
+  <path d="M159 76h329" stroke="#b18a5a" stroke-width="2"/>
+  <text x="160" y="101" font-family="Arial,sans-serif" font-size="19" font-weight="bold" letter-spacing="4.1">PLASTERING SERVICES</text>
+  <text x="160" y="127" font-family="Georgia,serif" font-size="13" font-style="italic" letter-spacing="1.2" fill="#806b4e">Quality Workmanship. Reliable Service.</text>
+</g>
 </svg>
