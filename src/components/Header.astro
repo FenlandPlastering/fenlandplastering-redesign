@@ -1,0 +1,38 @@
+---
+const base = import.meta.env.BASE_URL;
+---
+
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href={base} aria-label="Fenland Plastering Services home">
+      <img src={`${base}images/crest.svg`} alt="" class="brand-crest" />
+      <span class="brand-copy">
+        <span class="brand-name">Fenland Plastering Services</span>
+        <span class="brand-tagline">Quality Workmanship. Reliable Service.</span>
+      </span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Toggle navigation"
+      aria-expanded="false"
+      aria-controls="main-navigation"
+    >
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="main-navigation" id="main-navigation" aria-label="Main navigation">
+      <div class="nav-links">
+        <a href={base}>Home</a>
+        <a href={`${base}services/`}>Services</a>
+        <a href={`${base}about/`}>About</a>
+        <a href={`${base}our-work/`}>Our Work</a>
+        <a href={`${base}faqs/`}>FAQs</a>
+        <a href={`${base}contact/`} class="nav-quote">Request a Quote</a>
+      </div>
+    </nav>
+  </div>
+</header>
