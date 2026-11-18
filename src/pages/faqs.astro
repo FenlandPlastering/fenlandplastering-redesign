@@ -1,0 +1,72 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const base = import.meta.env.BASE_URL;
+
+const questions = [
+  {
+    q: 'Do you undertake domestic and commercial work?',
+    a: 'Fenland Plastering Services is presented as serving both domestic and commercial projects. Please contact us to discuss the type and scale of work you have in mind.'
+  },
+  {
+    q: 'Can I request a quotation?',
+    a: 'Yes. Use the contact page to tell us about your project and the work you are considering. We can then discuss the requirements and quotation process.'
+  },
+  {
+    q: 'What types of plastering work do you offer?',
+    a: 'The services outlined on this website include plastering and skimming, rendering, dry lining, renovations and new-build work. Please get in touch to confirm whether your particular job is covered.'
+  },
+  {
+    q: 'Do you work on individual rooms as well as larger projects?',
+    a: 'We welcome enquiries about different types of projects. Please provide some details so that the requirements can be discussed.'
+  },
+  {
+    q: 'How do I get started?',
+    a: 'Visit the contact page and provide a description of the work, your location and any useful details about the property or project.'
+  }
+];
+---
+
+<Base title="FAQs | Fenland Plastering Services" description="Answers to common questions about plastering services and requesting a quotation.">
+  <Header />
+  <main>
+    <section class="page-hero">
+      <div class="page-hero-inner">
+        <span class="eyebrow">Helpful information</span>
+        <h1>Frequently Asked Questions</h1>
+        <p>A few useful answers before getting started.</p>
+      </div>
+    </section>
+
+    <section class="section-padding">
+      <div class="page-intro">
+        <span class="section-kicker">FAQs</span>
+        <h2>How can we help?</h2>
+        <p>Here are some answers to common questions. If you need more information, please get in touch.</p>
+      </div>
+
+      <div class="faq-list">
+        {questions.map((question, index) => (
+          <details class="faq-item">
+            <summary>
+              <span class="faq-number">{String(index + 1).padStart(2, '0')}</span>
+              <span>{question.q}</span>
+              <span class="faq-plus" aria-hidden="true">+</span>
+            </summary>
+            <div class="faq-answer">
+              <p>{question.a}</p>
+            </div>
+          </details>
+        ))}
+      </div>
+      <div class="faq-contact">
+        <h2>Still have a question?</h2>
+        <p>We'd be happy to hear from you.</p>
+        <a class="button button-dark" href={`${base}contact/`}>Contact Us</a>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Base>
