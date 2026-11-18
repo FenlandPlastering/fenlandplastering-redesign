@@ -1,0 +1,72 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<Base title="About Us | Fenland Plastering Services" description="Find out more about Fenland Plastering Services and our approach to quality plastering.">
+  <Header />
+  <main>
+    <section class="page-hero">
+      <div class="page-hero-inner">
+        <span class="eyebrow">About the business</span>
+        <h1>About Us</h1>
+        <p>Quality workmanship. Reliable service. A professional approach.</p>
+      </div>
+    </section>
+
+    <section class="section-padding">
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1200&q=85" alt="Carefully finished home interior" />
+        </div>
+        <div class="about-copy">
+          <span class="section-kicker">Fenland Plastering Services</span>
+          <h2>Pride in the work.<br />Care in the details.</h2>
+          <p>At Fenland Plastering Services, we believe quality workmanship and reliable service should be at the heart of every project.</p>
+          <p>Whether the job involves improving a single room, renovating a property or working on a larger building project, we understand the importance of a good finish and a professional approach.</p>
+          <p>We aim to make the process straightforward, with clear communication and care taken over the work being carried out.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="values-section">
+      <div class="section-padding">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">What matters to us</span>
+            <h2>Our Approach</h2>
+          </div>
+          <p>The principles behind the way we approach every project.</p>
+        </div>
+        <div class="values-grid">
+          <article class="value-card">
+            <span class="value-number">01</span>
+            <h3>Quality Workmanship</h3>
+            <p>Taking care over preparation, application and the finished result.</p>
+          </article>
+          <article class="value-card">
+            <span class="value-number">02</span>
+            <h3>Reliable Service</h3>
+            <p>Clear communication and a professional approach throughout.</p>
+          </article>
+          <article class="value-card">
+            <span class="value-number">03</span>
+            <h3>Attention to Detail</h3>
+            <p>Understanding that the smaller details make a difference to the overall finish.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="inner-cta">
+      <span class="section-kicker section-kicker-light">Start a conversation</span>
+      <h2>Tell us about your project.</h2>
+      <p>We'd be pleased to hear about the work you're considering.</p>
+      <a class="button button-light" href={`${base}contact/`}>Get in Touch</a>
+    </section>
+  </main>
+  <Footer />
+</Base>
