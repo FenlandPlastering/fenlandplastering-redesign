@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 120" role="img" aria-labelledby="title desc">
+  <title id="title">Fenland Plastering Services architectural mark</title>
+  <desc id="desc">A traditional roofline and doorway motif in deep green.</desc>
+  <g fill="none" stroke="#263b35" stroke-width="5" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M18 57 90 12l72 45"/>
+    <path d="M35 53v51h110V53"/>
+    <path d="M68 104V67h44v37"/>
+    <path d="M57 47h66"/>
+  </g>
+  <path d="M85 85h10" stroke="#b18a5a" stroke-width="4" stroke-linecap="square"/>
+</svg>
