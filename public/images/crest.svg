@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 190" fill="none">
+  <path d="M80 8 L145 32 V91 C145 133 118 163 80 182 C42 163 15 133 15 91 V32 Z" fill="#263B35"/>
+  <path d="M80 17 L136 38 V91 C136 128 112 155 80 171 C48 155 24 128 24 91 V38 Z" stroke="#B18A5A" stroke-width="2.5"/>
+  <path d="M44 111 V82 L80 49 L116 82 V111" stroke="#E9E3D8" stroke-width="5" stroke-linecap="square" stroke-linejoin="round"/>
+  <path d="M57 111 V88 H103 V111" stroke="#B18A5A" stroke-width="3"/>
+  <path d="M68 111 V94 H92 V111" stroke="#E9E3D8" stroke-width="2.5"/>
+  <path d="M48 125 H112" stroke="#B18A5A" stroke-width="2"/>
+  <text x="80" y="143" text-anchor="middle" fill="#E9E3D8" font-family="Georgia,serif" font-size="12" font-weight="bold" letter-spacing="2">FPS</text>
+</svg>
