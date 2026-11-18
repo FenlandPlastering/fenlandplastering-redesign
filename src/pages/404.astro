@@ -1,0 +1,18 @@
+---
+import Base from '../layouts/Base.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<Base title="Page Not Found | Fenland Plastering Services">
+  <Header />
+  <main class="not-found section-padding">
+    <span class="section-kicker">Error 404</span>
+    <h1>We can't find that page.</h1>
+    <p>The page you are looking for may have moved or the address may be incorrect.</p>
+    <a class="button button-dark" href={base}>Return to Homepage</a>
+  </main>
+  <Footer />
+</Base>
